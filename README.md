@@ -1,2 +1,5 @@
 # TODO_List
-A simple implimentation of TODO list
+
+Here I made a simple TODO list which will work as a task manager. It can be hosted online at any sever. I make it connect with MongoDB as a database. SO you can create and save your work for future reference. When you think you done need this, you can check the box and refresh it, so it will delete the work from your database. That is quite useful.
+<br>
+For this project I used node as my backend along with express & ejs file. If you want to try then install node in your computer and initialize npm. The package.json file contains all the dependencies for this project. So you can install them all at one go. Then connect it to a mongodb data server. For local testing install mongod and mongoose. If you want to deploy this app, there is a lot of provider who will give you a domain for free. But they are very buggy, so I don't use them. You can try hosting by buying a domain from some provider, some will give you for a little price. For this purpose make sure your database is connected properly to an online database. Some minor change should be done to connect the database again. Check MongoDB website. They provide a clear documentation on how you should do it. You need to collect your API key by creating an account and paste use it in your app. Please take care of your  api key and never post it publicly
